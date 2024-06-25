@@ -1,0 +1,212 @@
+/* Estrutura padrão do site */
+body {
+  background: #76579b;
+  font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, Sans-serif;
+}
+
+#container {
+  width: 1680px;
+  margin: 1px 1px 1px 1px;
+}
+
+a:link,
+a:active,
+a:visited {
+  color: #76579b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #4a4e69;
+}
+
+/* Barra de Navegação */
+
+header {
+  padding: 1px 0 10px;
+  height: 55px;
+  background: #f2e9e4;
+  /* background: black; */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 20px;
+  float: right;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a:link {
+  display: block;
+  margin-right: 30px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  border-bottom: 1px solid #4a4e69;
+}
+
+#logo {
+  float: left;
+  width: 5px;
+  height: 55px;
+  margin-left: 10px;
+}
+
+/* Imagem Capa */
+
+section#capa {
+  width: 1680px;
+  height: 1050px;
+  /* margin: 0px; */
+  display: block;
+  /* position: absolute;   */
+}
+
+article#titulo {
+  background-color: rgba(222, 226, 255, 0.9);
+  position: absolute;
+  top: 320px;
+  left: 80px;
+  width: 500px;
+  height: 450px;
+  padding: 20px;
+  background: 0.5;
+}
+
+article#titulo h2 {
+  font-size: 60px;
+  width: 493px;
+  color: #ab343a;
+  text-align: justify;
+}
+
+article#titulo p {
+  font-size: 15px;
+  width: 493px;
+  color: #9a031e;
+  text-align: justify;
+}
+
+section#imagem1 img {
+  background-color: rgba(222, 226, 255, 0.9);
+  position: absolute;
+  top: 110px;
+  left: 1050px;
+  width: 400px;
+  /* height: 100px; */
+  padding: 10px;
+  background: 0.5;
+}
+
+section#imagem2 img {
+  background-color: rgba(222, 226, 255, 0.9);
+  position: absolute;
+  top: 440px;
+  left: 1050px;
+  width: 400px;
+  /* height: 100px; */
+  padding: 10px;
+  background: 0.5;
+}
+
+section#imagem3 img {
+  background-color: rgba(222, 226, 255, 0.9);
+  position: absolute;
+  top: 770px;
+  left: 1050px;
+  width: 400px;
+  /* height: 100px; */
+  padding: 10px;
+  background: 0.5;
+}
+
+/* Imagens Emoçoes */
+
+section#fotos ul li {
+  float: left;
+  padding: 5px;
+  list-style-type: none;
+  text-align: center;
+}
+
+section#fotos h1,
+h3 {
+  color: rgba(232, 223, 255, 1);
+  margin: 0px 0px 0px 50px;
+}
+
+section#fotos img {
+  width: 390px;
+  float: right;
+  margin: 0px 0px 10px 0px;
+}
+
+div #local {
+  float: right;
+}
+
+section#mapa {
+  float: left;
+  margin: 50px 0px 0px 300px;
+  color: rgba(232, 223, 255, 1);
+  text-align: center;
+}
+
+section#contato {
+  float: left;
+  margin: 150px 10px 0px 100px;
+  color: rgba(232, 223, 255, 1);
+}
+
+section#contato h1 {
+  margin: 0px 0px 10px 43%;
+}
+
+section#contato h3 {
+  text-align: center
+}
+
+#message {
+  margin: 0 30%;
+}
+
+#submit {
+  margin: 0 50%;
+}
+
+section#contato a {
+  float: left;
+  margin: 80px 0px 0px 43%;
+  color: rgba(232, 223, 255, 1);
+  text-align: center;
+  border: 2px solid black;
+  padding: 10px;
+  background: rgba(232, 223, 255, 0.2);
+  hover: rgba(232, 223, 255, 1);
+}
+
+section#contato a:hover {
+  color: #9a031e;
+}
+
+footer {
+  clear: both;
+  padding: 20px 0;
+  text-align: center;
+  background: #f2e9e4;
+  margin-top: 20px;
+}
+
+footer > p a {
+  padding: 2px 10px;
+}
+
+.clear {
+  clear: both;
+}
